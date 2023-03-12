@@ -9,58 +9,64 @@ const Home = () => {
                 <div className="flex">
                     <div className="image">
                         <img src="images/shose.jpg" alt="" />
-                        <AiOutlineHeart />
                         <div className="left">
                             <AiOutlineLeft />
-                            <span>next in</span>
+                            <span className='next'>next in</span>
+                        </div>
+                        <div className="right">
+                        <AiOutlineHeart />
                         </div>
                     </div>
                     <div className="details">
                         <h1>Heavy Weight Shoes</h1>
                         <div className="more-details">
                             <span className='price'>$120.00</span>
-                            <span className='star'><AiFillStar /> 4.9 .</span>
+                            <span className='star'><AiFillStar className='yallow'/> 4.9 </span>
                             <span className='reviews'>123.reviews .</span>
                             <span className='next'>   <AiOutlineLeft /> next in</span>
                         </div>
-                    </div>
                     <div className="colors">
-                        <h2>Colors</h2>
+                        <h2>Colors:</h2>
+                        <div className="flex-colors">
                         <span className='widt'></span>
                         <span className='red'></span>
                         <span className='black'></span>
                         <span className='green'></span>
-                        <span className='light'></span>
+                        <span className='nove'></span>
+                        </div>
                     </div>
                     <div className="size">
                         <div className="flex">
                         <h1>Size:<span>xs</span></h1>
-                        <span>See sizing chart</span>
+                        <span className='link'>See sizing chart</span>
                         </div>
-                        <span>xs</span>
-                        <span>s</span>
-                        <span>m</span>
-                        <span>l</span>
-                        <span>xl</span>
-                        <span className='user-none'>2xl</span>
-                        <span className='user-none'>3xl</span>
+                        <div className="sizes">
+                            <span className='siz'>xs</span>
+                            <span className='siz'>s</span>
+                            <span className='siz'>m</span>
+                            <span className='siz'>l</span>
+                            <span className='siz'>xl</span>
+                            <span className='user-none siz'>2xl</span>
+                            <span className='user-none siz'>3xl</span>
+                        </div>
                     </div>
                     <div className="btns">
                         <button className='munis'>-</button>
                         <span className='count'>1</span>
                         <button className='plus'>+</button>
-                        <button className='cart'> <BsBagDashFill /> add to cart</button>
+                        <button className='cart'> <BsBagDashFill className='icon-cart'/> Add to cart</button>
                     </div>
                     <div className="desc">
-                        <h1>Description</h1>
+                        <span>Description</span>
                         <span>-</span>
                     </div>
                     <div className="lorem">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt voluptatum quia et dignissimos eius aliquid qui, earum quod quidem esse!</p>
                     </div>
                     <div className="cars">
-                        <h1>Fabric + Core</h1>
+                        <span>Fabric + Core</span>
                         <span>-</span>
+                      </div>
                     </div>
                 </div>
             </div>
